@@ -37,3 +37,8 @@ line.style.backgroundColor="grey";
 //chiedo il colore all'utente e lo uso per settare il colore del testo
 let coloreTesto= prompt("inserisci il colore");
 document.getElementById("colore").style.color=coloreTesto;
+
+//visualizzare data e ora locale
+let ora= document.getElementById("ora");
+ora.innerHTML="Date : " + Date();
+

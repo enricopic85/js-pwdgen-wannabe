@@ -25,7 +25,19 @@
 
      <p id="line">Questo testo era nero ora è rosso</p> <br>
       <hr>
-      <p id="colore">Il testo sarà dello stesso colore inserito dall'utente</p>
+      <p id="colore">Il testo sarà dello stesso colore inserito dall'utente</p> <br>
+      <hr>
+
+      <p id="ora"></p> <br>
+      <hr>
+      <!-- cambio colore alla scritta al click -->
+      <h1 id="click">Questo testo diventerà verde</h1> <br>
+      <button type="button" onclick="document.getElementById('click').style.color = 'green'">Vi vedo verdi</button> <br>
+      <hr><br>
+      <!-- pulsante nascosto e visibile -->
+      <p id="change"> The book is on the table</p> <br>
+      <input type="button" value="Togli la cera" onclick="document.getElementById('change').style.visibility='hidden'">
+      <input type="button" value="Metti la cera" onclick="document.getElementById('change').style.visibility='visible'">
     <script src="bonus/bonus.js"></script>
     <hr>
 </body>
